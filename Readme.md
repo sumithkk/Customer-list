@@ -4,15 +4,15 @@
 First install mysql server
 ==================================================
 Ubuntu: 
-    sudo apt get update
-    apt get install mysql-server
+    *sudo apt get update
+    *apt get install mysql-server
 
 ==================================================
 Backend : Rest api using [Node, mySql, Sequelize]
 ==================================================
 cd Server
-    npm install
-    node server.js
+    *npm install
+    *node server.js
 
 * used MySql for database
 * ORM - sequelize
@@ -21,8 +21,8 @@ cd Server
 Frontend: React, Redux, Thunk[Middleware]
 ==================================================
 cd Client
-    npm install
-    npm run dev-server
+    *npm install
+    *pm run dev-server
 
 * used sass for styling
 * webpack for building
