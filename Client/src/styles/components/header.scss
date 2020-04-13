@@ -1,0 +1,33 @@
+.headerWrap {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #fff;
+    color: #707372;
+    position: fixed;
+    top:0;
+    left:0;
+}
+h4 {
+    text-align: left;
+    margin: 20px 30px;
+}
+.header__nav {
+    display: flex;
+    justify-content: flex-start;
+    background: #707372;
+    padding: 1rem 3rem;
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 8px 15px;
+        margin-right: 10px;
+        font-size: 14px;
+        background-color: #8BC400;
+        border-radius: 3px;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out;
+        &:hover {
+            background-color: #76a700;
+        }
+    }
+}

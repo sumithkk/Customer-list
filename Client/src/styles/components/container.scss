@@ -1,0 +1,91 @@
+.container {
+    margin: 0 auto;
+    padding: 0 $m-size;
+    text-align: center;
+}
+
+.container__list {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 130px
+}
+
+.card {
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    min-height: 480px;
+}
+.cardHeader {
+    background: #dedede;
+    padding: 10px;
+}
+
+
+.btn {
+    border: none;
+    color: #fff;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #8BC400;
+    border-radius: 3px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: #76a700;
+    }
+}
+
+.active {
+    background: #f1f1f1;
+}
+
+.cardList {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    min-height: 440px;
+    max-height: 440px;
+    p {
+        margin: 5px 0 10px;
+    }
+    li {
+        padding:10px;
+        border-bottom: 1px solid #dedede;
+        &:hover {
+            background: #f2f2f2;
+        }
+        a {
+            color: #444;
+            text-decoration: none;
+        } 
+    }
+}
+.scroll {
+    overflow-y: scroll;
+}
+.address {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 15px;
+}
+.placeHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 440px;
+    color: #4a4a4a;
+}
+.container__box {
+    background-color: $light;
+    width: 440px;
+    border: 1px solid $blue;
+    padding: 15px;
+    margin: 15px auto;
+}
